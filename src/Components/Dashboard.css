@@ -1,0 +1,112 @@
+/* src/Components/Dashboard.css */
+
+.dashboard {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.flashcard-form {
+    margin-bottom: 20px;
+}
+
+.flashcard-form h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+.flashcard-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flashcard-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flashcard-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.flashcard-actions {
+    display: flex;
+}
+
+.flashcard-actions button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+.flashcard-actions button:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+.edit-button {
+    background-color: #555;
+}
+
+.edit-button:hover {
+    background-color: #777;
+}
+
+.delete-button {
+    background-color: #555;
+}
+
+.delete-button:hover {
+    background-color: #777;
+}

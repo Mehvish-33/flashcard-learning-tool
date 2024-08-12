@@ -1,0 +1,25 @@
+/* src/Components/FlashcardList.css */
+
+/* Progress Bar */
+.progress-bar {
+    width: 70%;
+    max-width: 400px;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #333;  /* Black progress bar */
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;  /* Dark text color */
+}
